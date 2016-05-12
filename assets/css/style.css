@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Arnold-21';
+  src: url('../fonts/Arnold-21.ttf.woff') format('woff'),
+       url('../fonts/Arnold-21.ttf.svg#Arnold-21') format('svg'),
+       url('../fonts/Arnold-21.ttf.eot'),
+       url('../fonts/Arnold-21.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+.arnold {
+  font-family: 'Arnold-21';
+}
+
+.navbar {
+  border-top: 0.5px solid #fff;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+  line-height: 65px;
+  height: 65px;
+  padding-top: 0;
+}
+
+.container {
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+#content {
+	padding-top: 140px;
+	margin-bottom: 180px;
+}
+
+#content h1 {
+	font-size: 32px;
+	margin-bottom: 50px;
+}
